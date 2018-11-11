@@ -1,10 +1,10 @@
 {
   "name": "acrylic-vibrancy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Inspired from `electron-vibrancy` and `electron-acrylic`",
   "main": "index.js",
   "scripts": {
-    "install": "npm run rebuild",
+    "install": "node install.js",
     "rebuild": "node-gyp rebuild --target=3.0.8 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
   },
   "author": "nodegin",
